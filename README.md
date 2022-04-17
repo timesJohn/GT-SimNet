@@ -1,5 +1,7 @@
-# GT-SimNet
- Improving Code Automatic Summarization via Multi-modal Similarity Networks
+# GT-SimNet: Improving Code Automatic Summarization via Multi-modal Similarity Networks
+GT-SimNet Source Code Summarization Method - Public Release
+
+This repository contains the public release code for GT-SimNet, a method for source code summarization. Code summarization is the task of automatically generating natural language descriptions of source code.
 ## Requirement
 This repos is developed based on the environment of:
 * Python 3.6
