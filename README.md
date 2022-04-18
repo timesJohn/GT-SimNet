@@ -3,7 +3,7 @@ GT-SimNet Source Code Summarization Method - Public Release
 
 This repository contains the public release code for GT-SimNet, a method for source code summarization. Code summarization is the task of automatically generating natural language descriptions of source code.
 ## Requirement
-This repos is developed based on the environment of:
+This repository is developed based on the environment of:
 * Python 3.6
 * PyTorch 1.5
 ## Update Notice
