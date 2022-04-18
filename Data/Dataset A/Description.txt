@@ -1,0 +1,24 @@
+Please download the datasets from the Google Drive：
+
+https://drive.google.com/drive/folders/14AmfMHoYCyF4ETFlQVHwEKwLlaRobTZB?usp=sharing
+
+The dataset used for the paper experiments contains the following folders:
+
+train: Contains all the training (.java) files
+
+test: Contains all the test (.java) files
+
+json: Contains a parsed form of the data, that can be easily input into machine learning models. 
+
+
+The format of the json files is explained below.
+========================== JSON file format ==========================
+Each .json file is a list of methods.
+
+Each method is described by a dictionary that contains the following key-value pairs:
+ filename: the origin of the method
+ name: a list of the normalized subtokens of the method name
+ tokens: a list of the tokens of the code within the body of the method. The code tokens are padded with a special <SENTENCE_START> and <SENTENCE_END> symbol. Source code identifiers (ie. variable, method and type names) are
+annotated by surrounding them with `<id>` and `</id>` tags. These tags were removed as a preprocessing step in this paper.
+
+

@@ -1,0 +1,22 @@
+Please download the datasets from the Google Drive：
+
+https://drive.google.com/drive/folders/1WPnv0n8BTJHSb9LtYNKrmSncNv6yKzWX?usp=sharing
+
+
+The dataset used for the paper experiments contains the following folders:
+
+train: Contains all the training (comments.train and functions.train）
+
+test: Contains all the test (comments.test and functions.test）
+
+valid: Contains all the test (comments.valid and functions.valid）
+
+others: Contains all the comments and functions
+
+
+The format of the Dataset B is explained below.
+
+comments: <Number, Comment>
+
+functions: <Number, Code>
+
